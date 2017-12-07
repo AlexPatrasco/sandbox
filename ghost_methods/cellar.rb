@@ -1,5 +1,5 @@
 class Cellar
-  attr_reader :potatoes, :pickle_jars, :apples
+  attr_reader :potatoes, :pickle_jars, :wine
 
   def initialize
     @potatoes = @pickles = @wine = 0

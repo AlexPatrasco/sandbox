@@ -1,6 +1,6 @@
 class Tesseract
   def method_missing(method, *args)
-    if result = method.match(/^(deposit|take)_([a-z]*)/)
+    if result = method.match(/^(deposit|take)_([a-zA-Z](\w)*)/)
       action, good = result[1], result[2]
       unless self.class.method_defined? method
         self.instance_variable_set("@#{good}", 0)

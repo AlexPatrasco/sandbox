@@ -18,8 +18,6 @@ Enter the Tesseract
 
 The list of our buyers and suppliers grew. The need to store more goods emerged, so we watched us some RenTV and discovered that ancient Aztecs were taught by extraterrestrial overlords a technology to store anything without adding any extra code by simply using this alien legacy code.
 
-Show some magic [Demo]
-
 How it works
 
 Ruby method lookup [right and up]. In ruby everything is an object, even a class. So in order to understand we have to know ruby object hierarchy. 
@@ -29,8 +27,6 @@ Ghost Methods are implemented using `method_missing`, thus we say to our class t
 With great power comes great responsibility
 
 You may have noted that the code for this magic is slightly less readable and understandable, hence your team won't pat you on the back for using it, and even if they will you will have to test it properly, otherwise buy a leg insurance, because you are gonna shoot it often.
-
-Should I use it?
 
 Yep, for lolz of course, it may even have its place in production code. For example, gem 'hashie' has a feature Mash which allows you to create objects that have attributes defined on the fly.
 
